@@ -2,7 +2,9 @@
   "name": "my-playwright-project",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+ "scripts": {
+        "generateTests": "tsc ./generateTests.ts && node ./generateTests.js"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -10,6 +12,10 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.50.1",
-    "@types/node": "^22.13.4"
+    "@types/node": "^22.13.4",
+    "axios": "^1.7.9",
+    "playwright-llm-testgenerator": "^0.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   }
 }

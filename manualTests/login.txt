@@ -1,0 +1,7 @@
+Navigate to the sample site URL (e.g., https://www.samplesite.com).
+Click on the 'Login' button located at the top right corner of the homepage.
+Enter your username in the 'Username' field.
+Enter your password in the 'Password' field.
+Click on the 'Submit' button to log in.
+If the credentials are correct, you will be redirected to your dashboard.
+If the credentials are incorrect, an error message will be displayed
